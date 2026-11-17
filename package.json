@@ -1,0 +1,11 @@
+{
+  "name": "ai-task-management-mern",
+  "version": "1.0.0",
+  "description": "Full-Stack AI-powered Task Management application using MERN, Firebase Auth, and MCP",
+  "scripts": {
+    "server": "npm --prefix server run dev",
+    "client": "npm --prefix client run dev",
+    "mcp": "npm --prefix server run mcp",
+    "start": "node server/src/server.js"
+  }
+}
